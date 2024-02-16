@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1677C10F2B7F47B000C6188F /* ADHD_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677C10E2B7F47B000C6188F /* ADHD_AppApp.swift */; };
+		1677C1112B7F47B000C6188F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677C1102B7F47B000C6188F /* ContentView.swift */; };
+		1677C1132B7F47B700C6188F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1677C1122B7F47B700C6188F /* Assets.xcassets */; };
+		1677C1162B7F47B700C6188F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1677C1152B7F47B700C6188F /* Preview Assets.xcassets */; };
+		1677C1202B7F47B800C6188F /* ADHD_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677C11F2B7F47B800C6188F /* ADHD_AppTests.swift */; };
+		1677C12A2B7F47B800C6188F /* ADHD_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677C1292B7F47B800C6188F /* ADHD_AppUITests.swift */; };
+		1677C12C2B7F47B800C6188F /* ADHD_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677C12B2B7F47B800C6188F /* ADHD_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1677C11C2B7F47B800C6188F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1677C1032B7F47B000C6188F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1677C10A2B7F47B000C6188F;
+			remoteInfo = "ADHD App";
+		};
+		1677C1262B7F47B800C6188F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1677C1032B7F47B000C6188F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1677C10A2B7F47B000C6188F;
+			remoteInfo = "ADHD App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1677C10B2B7F47B000C6188F /* ADHD App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADHD App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1677C10E2B7F47B000C6188F /* ADHD_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHD_AppApp.swift; sourceTree = "<group>"; };
+		1677C1102B7F47B000C6188F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1677C1122B7F47B700C6188F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1677C1152B7F47B700C6188F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1677C11B2B7F47B800C6188F /* ADHD AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADHD AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1677C11F2B7F47B800C6188F /* ADHD_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHD_AppTests.swift; sourceTree = "<group>"; };
+		1677C1252B7F47B800C6188F /* ADHD AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADHD AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1677C1292B7F47B800C6188F /* ADHD_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHD_AppUITests.swift; sourceTree = "<group>"; };
+		1677C12B2B7F47B800C6188F /* ADHD_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHD_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1677C1082B7F47B000C6188F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1677C1182B7F47B800C6188F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1677C1222B7F47B800C6188F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1677C1022B7F47B000C6188F = {
+			isa = PBXGroup;
+			children = (
+				1677C10D2B7F47B000C6188F /* ADHD App */,
+				1677C11E2B7F47B800C6188F /* ADHD AppTests */,
+				1677C1282B7F47B800C6188F /* ADHD AppUITests */,
+				1677C10C2B7F47B000C6188F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1677C10C2B7F47B000C6188F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1677C10B2B7F47B000C6188F /* ADHD App.app */,
+				1677C11B2B7F47B800C6188F /* ADHD AppTests.xctest */,
+				1677C1252B7F47B800C6188F /* ADHD AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1677C10D2B7F47B000C6188F /* ADHD App */ = {
+			isa = PBXGroup;
+			children = (
+				1677C10E2B7F47B000C6188F /* ADHD_AppApp.swift */,
+				1677C1102B7F47B000C6188F /* ContentView.swift */,
+				1677C1122B7F47B700C6188F /* Assets.xcassets */,
+				1677C1142B7F47B700C6188F /* Preview Content */,
+			);
+			path = "ADHD App";
+			sourceTree = "<group>";
+		};
+		1677C1142B7F47B700C6188F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1677C1152B7F47B700C6188F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1677C11E2B7F47B800C6188F /* ADHD AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1677C11F2B7F47B800C6188F /* ADHD_AppTests.swift */,
+			);
+			path = "ADHD AppTests";
+			sourceTree = "<group>";
+		};
+		1677C1282B7F47B800C6188F /* ADHD AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1677C1292B7F47B800C6188F /* ADHD_AppUITests.swift */,
+				1677C12B2B7F47B800C6188F /* ADHD_AppUITestsLaunchTests.swift */,
+			);
+			path = "ADHD AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1677C10A2B7F47B000C6188F /* ADHD App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1677C12F2B7F47B800C6188F /* Build configuration list for PBXNativeTarget "ADHD App" */;
+			buildPhases = (
+				1677C1072B7F47B000C6188F /* Sources */,
+				1677C1082B7F47B000C6188F /* Frameworks */,
+				1677C1092B7F47B000C6188F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ADHD App";
+			productName = "ADHD App";
+			productReference = 1677C10B2B7F47B000C6188F /* ADHD App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1677C11A2B7F47B800C6188F /* ADHD AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1677C1322B7F47B800C6188F /* Build configuration list for PBXNativeTarget "ADHD AppTests" */;
+			buildPhases = (
+				1677C1172B7F47B800C6188F /* Sources */,
+				1677C1182B7F47B800C6188F /* Frameworks */,
+				1677C1192B7F47B800C6188F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1677C11D2B7F47B800C6188F /* PBXTargetDependency */,
+			);
+			name = "ADHD AppTests";
+			productName = "ADHD AppTests";
+			productReference = 1677C11B2B7F47B800C6188F /* ADHD AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1677C1242B7F47B800C6188F /* ADHD AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1677C1352B7F47B800C6188F /* Build configuration list for PBXNativeTarget "ADHD AppUITests" */;
+			buildPhases = (
+				1677C1212B7F47B800C6188F /* Sources */,
+				1677C1222B7F47B800C6188F /* Frameworks */,
+				1677C1232B7F47B800C6188F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1677C1272B7F47B800C6188F /* PBXTargetDependency */,
+			);
+			name = "ADHD AppUITests";
+			productName = "ADHD AppUITests";
+			productReference = 1677C1252B7F47B800C6188F /* ADHD AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1677C1032B7F47B000C6188F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1677C10A2B7F47B000C6188F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1677C11A2B7F47B800C6188F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1677C10A2B7F47B000C6188F;
+					};
+					1677C1242B7F47B800C6188F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1677C10A2B7F47B000C6188F;
+					};
+				};
+			};
+			buildConfigurationList = 1677C1062B7F47B000C6188F /* Build configuration list for PBXProject "ADHD App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1677C1022B7F47B000C6188F;
+			productRefGroup = 1677C10C2B7F47B000C6188F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1677C10A2B7F47B000C6188F /* ADHD App */,
+				1677C11A2B7F47B800C6188F /* ADHD AppTests */,
+				1677C1242B7F47B800C6188F /* ADHD AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1677C1092B7F47B000C6188F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1677C1162B7F47B700C6188F /* Preview Assets.xcassets in Resources */,
+				1677C1132B7F47B700C6188F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1677C1192B7F47B800C6188F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1677C1232B7F47B800C6188F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1677C1072B7F47B000C6188F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1677C1112B7F47B000C6188F /* ContentView.swift in Sources */,
+				1677C10F2B7F47B000C6188F /* ADHD_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1677C1172B7F47B800C6188F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1677C1202B7F47B800C6188F /* ADHD_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1677C1212B7F47B800C6188F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1677C12C2B7F47B800C6188F /* ADHD_AppUITestsLaunchTests.swift in Sources */,
+				1677C12A2B7F47B800C6188F /* ADHD_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1677C11D2B7F47B800C6188F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1677C10A2B7F47B000C6188F /* ADHD App */;
+			targetProxy = 1677C11C2B7F47B800C6188F /* PBXContainerItemProxy */;
+		};
+		1677C1272B7F47B800C6188F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1677C10A2B7F47B000C6188F /* ADHD App */;
+			targetProxy = 1677C1262B7F47B800C6188F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1677C12D2B7F47B800C6188F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1677C12E2B7F47B800C6188F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1677C1302B7F47B800C6188F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADHD App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ADHD-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1677C1312B7F47B800C6188F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADHD App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ADHD-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1677C1332B7F47B800C6188F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ADHD-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHD App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADHD App";
+			};
+			name = Debug;
+		};
+		1677C1342B7F47B800C6188F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ADHD-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHD App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADHD App";
+			};
+			name = Release;
+		};
+		1677C1362B7F47B800C6188F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ADHD-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ADHD App";
+			};
+			name = Debug;
+		};
+		1677C1372B7F47B800C6188F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ADHD-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ADHD App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1677C1062B7F47B000C6188F /* Build configuration list for PBXProject "ADHD App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1677C12D2B7F47B800C6188F /* Debug */,
+				1677C12E2B7F47B800C6188F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1677C12F2B7F47B800C6188F /* Build configuration list for PBXNativeTarget "ADHD App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1677C1302B7F47B800C6188F /* Debug */,
+				1677C1312B7F47B800C6188F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1677C1322B7F47B800C6188F /* Build configuration list for PBXNativeTarget "ADHD AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1677C1332B7F47B800C6188F /* Debug */,
+				1677C1342B7F47B800C6188F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1677C1352B7F47B800C6188F /* Build configuration list for PBXNativeTarget "ADHD AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1677C1362B7F47B800C6188F /* Debug */,
+				1677C1372B7F47B800C6188F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1677C1032B7F47B000C6188F /* Project object */;
+}
